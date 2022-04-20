@@ -1,0 +1,6 @@
+div[class*="myComboBox"] > div[class*="my_select__control--is-focused"] {
+    boxShadow: 0 !important;
+    outline-color: red !important;
+    outline-style: auto !important;
+    outline-width: 5px !important;
+}

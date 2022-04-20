@@ -1,0 +1,24 @@
+.rcw-conversation-container > .rcw-header {
+    background-color: darkblue;
+}
+.rcw-client .rcw-message-text {
+    background-color: darkblue;
+    color: white;
+}
+.rcw-conversation-container .rcw-title {
+    color: white;
+}
+
+.rcw-conversation-container .rcw-close-button {
+    background-color: darkblue;
+}
+
+.rcw-full-screen .rcw-close-button {
+    background-color: darkblue;
+}
+.rcw-launcher{
+    background-color: darkblue;
+}
+
+
+
