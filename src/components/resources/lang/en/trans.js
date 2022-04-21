@@ -160,7 +160,7 @@ export const TRANS_EN = {
     /**
      * URL MANAGEMENT
      */
-    appBaseUrl:'http://localhost:3000',
+    appBaseUrl:'https://vims-ecommerce.netlify.app',
     loginUrl: '/login',
     protectedUrl: '/protected',
     shopUrl: '/shop',
