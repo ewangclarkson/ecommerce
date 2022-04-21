@@ -167,15 +167,12 @@ const ShopLayoutView = () => {
                                     <i className="divider divider--4"></i>
                                 </div>
                                 <div className="widget--content">
-                                    <a href="#">responsive</a>
-                                    <a href="#">modern</a>
-                                    <a href="#">corporate</a>
-                                    <a href="#">business</a>
-                                    <a href="#">fresh</a>
-                                    <a href="#">awesome</a>
-                                    <a href="#">business</a>
-                                    <a href="#">fresh</a>
-                                    <a href="#">corporate</a>
+                                    <a href="#">Reliable</a>
+                                    <a href="#">Trust Worthy</a>
+                                    <a href="#">Quality</a>
+                                    <a href="#">Fast Delivery</a>
+                                    <a href="#">Easy Payments</a>
+                                    <a href="#">Comfortable</a>
                                 </div>
                             </div>
                         </div>
