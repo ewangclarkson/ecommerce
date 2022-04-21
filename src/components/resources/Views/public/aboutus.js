@@ -473,7 +473,7 @@ const AboutUsView = () => {
                                 {/* Member #3 */}
                                 <div className="member">
                                     <div className="member-img">
-                                        <img src="assets/images/team/grid/3.jpg" alt="member"  style={{width:"290px",height:"310px"}}/>
+                                        <img src="assets/images/team/wife.jpg" alt="member"  style={{width:"290px",height:"310px"}}/>
                                         <div className="member-overlay">
                                             <div className="member-social">
                                                 <div className=" pos-vertical-center">

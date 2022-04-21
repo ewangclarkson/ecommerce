@@ -234,7 +234,7 @@ const OurTeam = ()=>{
                         <div className="col-xs-12 col-sm-3 col-md-3">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src="assets/images/team/grid/3.jpg" alt="member" style={{width:"290px",height:"310px"}}/>
+                                    <img src="assets/images/team/wife.jpg" alt="member" style={{width:"290px",height:"310px"}}/>
                                     <div className="member-overlay">
                                         <div className="member-social">
                                             <div className=" pos-vertical-center">
@@ -331,7 +331,7 @@ const OurTeam = ()=>{
                         <div className="col-xs-12 col-sm-3 col-md-3">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src="assets/images/team/grid/4.jpg" alt="member"/>
+                                    <img src="assets/images/team/witney.jpg" alt="member" style={{width:"290px",height:"310px"}}/>
                                     <div className="member-overlay">
                                         <div className="member-social">
                                             <div className="pos-vertical-center">
@@ -346,7 +346,7 @@ const OurTeam = ()=>{
                                 </div>
                                 {/* .member-img end */}
                                 <div className="member-info">
-                                    <h5>Ewang Clarkson</h5>
+                                    <h5>Willson Clarkson</h5>
                                     <h6>Developer & Graphics Designer</h6>
                                     <div className="divider--line">
                                         <i className="divider divider--1"></i>
@@ -364,7 +364,7 @@ const OurTeam = ()=>{
                         <div className="col-xs-12 col-sm-3 col-md-3">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src="assets/images/team/grid/12.jpg" alt="member"/>
+                                    <img src="assets/images/team/esther.jpg" alt="member" style={{width:"290px",height:"310px"}}/>
                                     <div className="member-overlay">
                                         <div className="member-social">
                                             <div className=" pos-vertical-center">
@@ -379,7 +379,7 @@ const OurTeam = ()=>{
                                 </div>
                                 {/* .member-img end */}
                                 <div className="member-info">
-                                    <h5>Ewang Alvine</h5>
+                                    <h5>Esther Davinchi</h5>
                                     <h6>PA</h6>
                                     <div className="divider--line">
                                         <i className="divider divider--1"></i>

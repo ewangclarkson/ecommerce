@@ -419,10 +419,10 @@ const ShopSingleView = () => {
 
                                                         <div className="product--content">
                                                             <div className="product--title">
-                                                                <h3><a href="#">{product.product_name}</a></h3>
+                                                                <h3><a href="#">{pd.product_name}</a></h3>
                                                             </div>
                                                             <div className="product--price">
-                                                                <span>{t('currency') + product.price}</span>
+                                                                <span>{t('currency') + pd.price}</span>
                                                             </div>
 
                                                         </div>
