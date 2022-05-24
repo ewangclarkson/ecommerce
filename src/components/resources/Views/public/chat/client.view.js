@@ -14,8 +14,6 @@ const ClientChatApp = () => {
             appRegion: region,
             authKey: AUTH_KEY,
         }).then((response) => {
-            console.log("Initialization completed successfully");
-            //You can now call login function.
             let uid = localStorage.getItem("cc-uid");
             if (uid === null) {
                 // create new user

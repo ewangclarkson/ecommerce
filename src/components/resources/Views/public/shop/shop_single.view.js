@@ -213,35 +213,35 @@ const ShopSingleView = () => {
                             <div className="product-share">
                                 <h5 className="share-title">share product: </h5>
                                  <FacebookShareButton
-                                        url={t('appBaseUrl')  + t('shopUrl') + '/' + t('shopSingleUrl') + '/' + param.id}
+                                        url={t('appBaseUrl')  + t('shopUrl') + t('shopSingleUrl') + '/' + param.id}
                                         quote={product.description}
                                         hashtag={'#' + product.product_name}
                                         className='share-facebook' style={{paddingRight: "5px"}}>
                                         <FacebookIcon size={36} round={true}/>
                                     </FacebookShareButton>
                                 <TwitterShareButton
-                                    url={t('appBaseUrl') + t('shopUrl') + '/' + t('shopSingleUrl') + '/' + param.id}
+                                    url={t('appBaseUrl') + t('shopUrl')  + t('shopSingleUrl') + '/' + param.id}
                                     hashtags={['#' +product.description]}
                                     title={product.product_name}
                                     className='share-twitter' style={{paddingRight: "5px"}}>
                                     <TwitterIcon size={36} round={true} />
                                 </TwitterShareButton>
                                 <WhatsappShareButton
-                                    url={t('appBaseUrl')  + t('shopUrl') + '/' + t('shopSingleUrl') + '/' + param.id}
+                                    url={t('appBaseUrl')  + t('shopUrl')  + t('shopSingleUrl') + '/' + param.id}
                                     hashtag={product.description}
                                     title={'#' + product.product_name}
                                     className='share-twitter' style={{paddingRight: "5px"}}>
                                     <WhatsappIcon size={36} round={true}/>
                                 </WhatsappShareButton>
                                 <LinkedinShareButton
-                                    url={t('appBaseUrl')  + t('shopUrl') + '/' + t('shopSingleUrl') + '/' + param.id}
+                                    url={t('appBaseUrl')  + t('shopUrl') + t('shopSingleUrl') + '/' + param.id}
                                     summary={product.description}
                                     title={'#' + product.product_name}
                                     className='share-linkedin' style={{paddingRight: "5px"}}>
                                     <LinkedinIcon size={36} round={true}/>
                                 </LinkedinShareButton>
                                 <EmailShareButton
-                                    body={product.description + ':' + t('appBaseUrl')  + t('shopUrl') + '/' + t('shopSingleUrl') + '/' + param.id}
+                                    body={product.description + ':' + t('appBaseUrl')  + t('shopUrl') + t('shopSingleUrl') + '/' + param.id}
                                     subject={product.product_name}
                                     className='share-google-plus'>
                                     <EmailIcon size={36} round={true} />

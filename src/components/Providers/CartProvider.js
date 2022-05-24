@@ -1,6 +1,6 @@
 import React from "react";
 
-const CartContext = React.createContext();
+const CartContext = React.createContext(null);
 
 export const CartProvider = (props) => {
 

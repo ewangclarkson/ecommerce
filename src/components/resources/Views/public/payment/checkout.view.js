@@ -68,8 +68,8 @@ const CheckoutView = () => {
                 //after DB save,send email with code
                 var templateParams = {
                     name: email.name,
-                    from_name: email.email,
-                    to_name: process.env.REACT_APP_MY_EMAIL,
+                    from_name:process.env.REACT_APP_MY_EMAIL ,
+                    to_name:email.email,
                     message: t('paymentResponseMsg') + payment.code
                 };
                 send(

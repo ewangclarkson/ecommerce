@@ -187,7 +187,7 @@ export const TRANS_EN = {
     /**
      * Client Urls
      */
-    hostUrl: 'http://localhost:8089/',
+    hostUrl: 'https://eclarks-ecommerce.herokuapp.com/',
     hostLoginUrl: '/api/login',
     hostLogoutUrl: '/api/logout',
     hostUserUrl: '/api/me',

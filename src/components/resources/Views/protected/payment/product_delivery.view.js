@@ -61,7 +61,7 @@ const ProductDeliveryView = () => {
         setLoading(true);
         const URL = t('hostPaymentUrl') + '/' + paymentId;
         let response = await axiosApi({
-            'method': 'PuT',
+            'method': 'PUT',
             'url': URL,
             'data': {
                 status: 2
@@ -72,8 +72,8 @@ const ProductDeliveryView = () => {
             //after DB save,send email with code
             var templateParams = {
                 name: payment.name,
-                from_name: payment.email,
-                to_name: process.env.REACT_APP_MY_EMAIL,
+                from_name: process.env.REACT_APP_MY_EMAIL,
+                to_name:payment.email,
                 message: t('collectedMsg'),
             };
 

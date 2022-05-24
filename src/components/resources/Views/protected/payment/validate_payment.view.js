@@ -88,8 +88,8 @@ const ValidatePaymentRequestView = () => {
             //after DB save,send email with code
             var templateParams = {
                 name: payment.name,
-                from_name: payment.email,
-                to_name: process.env.REACT_APP_MY_EMAIL,
+                from_name: process.env.REACT_APP_MY_EMAIL,
+                to_name: payment.email,
                 message: message.message
             };
             send(

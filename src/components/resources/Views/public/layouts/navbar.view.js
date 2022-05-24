@@ -88,8 +88,11 @@ const NavBarView = () => {
                                 <div className="cart--control">
                                     <a className="btn btn--primary btn--block mb-10"
                                        href={t('shopCartUrl')}>{t('viewCart')}</a>
-                                    <a className="btn btn--secondary btn--bordered btn--block"
-                                       href={t('clientCheckoutUrl')}>{t('checkout')}</a>
+                                    {
+                                        cartProvider.cart.length > 0 &&
+                                            <a className="btn btn--secondary btn--bordered btn--block"
+                                               href={t('clientCheckoutUrl')}>{t('checkout')}</a>
+                                    }
                                 </div>
                             </div>
                         </div>

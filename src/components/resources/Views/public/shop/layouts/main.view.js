@@ -27,7 +27,7 @@ const ShopLayoutView = () => {
 
         }
     }
-
+    $(document).ready(function () {$('#navbar-spy').removeClass("header-transparent").addClass("header-light");});
     return (
         <React.Fragment>
             <section id="page-title" className="page-title">
